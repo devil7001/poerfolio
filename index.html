@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="background">
+
+    <header>
+        <nav class="navbar">
+            <div class="top neon-button"><a href="http://index.html" target="_blank" rel="noopener noreferrer">Home</a></div>
+            <div class="top neon-button"><a href="http://" target="_blank" rel="noopener noreferrer">Services</a></div>
+            <div class="top neon-button"><a href="http://" target="_blank" rel="noopener noreferrer">Projects</a></div>
+            <div class="top neon-button"><a href="http://" target="_blank" rel="noopener noreferrer">Contact</a></div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="sub-heading">
+            <p></p>
+            <h1>I'm a frontend developer.</h1>
+            <h4>from West Bengal, India</h4>
+            <div class="button">
+                <button class="btn neon-button" id="hireMeBtn">HIRE ME</button>
+                <button class="btn neon-button"><a href="Arya_Naga_resume.pdf" download="Arya_Naga_resume.pdf">DOWNLOAD CV</a></button>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="image.png" alt="">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-icons">
+            <a href="https://github.com/devil7001" target="_blank" rel="noopener noreferrer">
+                <img src="https://th.bing.com/th/id/OIP.eoZPB2gfGH-1ckaL_JSZdwHaHg?rs=1&pid=ImgDetMain" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/arya-naga-89a1a22ba/" target="_blank" rel="noopener noreferrer">
+                <img src="https://th.bing.com/th/id/OIP.A6WlrrczetshvKzzXlHXbAHaHv?rs=1&pid=ImgDetMain" alt="LinkedIn">
+            </a>
+        </div>
+    </footer>
+
+    <div id="hireFormContainer" class="hidden-form">
+        <form id="hireForm">
+            <h2>Hire Me</h2>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+            <button type="submit">Submit</button>
+            <button type="button" id="closeFormBtn">Close</button>
+        </form>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
